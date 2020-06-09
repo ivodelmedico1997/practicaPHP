@@ -62,7 +62,7 @@
     <div class="row d-flex p-2 bd-highlight justify-content-center">
       <!-- Tajeta 1 -->
       <div class="card bg-info m-2 p-2" style="width: 18rem;">
-        <img src="/img/1.jpg" class="card-img-top" alt="..." />
+        <img src="img/1.jpg" class="card-img-top" alt="..." />
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">01</h5>
           <p class="card-text text-center">
@@ -74,7 +74,7 @@
 
       <!-- Tajeta 2 -->
       <div class="card bg-info m-2 p-2" style="width: 18rem;">
-        <img src="/img/2.jpg" class="card-img-top" alt="..." />
+        <img src="img/2.jpg" class="card-img-top" alt="..." />
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">02</h5>
           <p class="card-text text-center">
@@ -86,7 +86,7 @@
 
       <!-- Tajeta 3 -->
       <div class="card bg-info m-2 p-2" style="width: 18rem;">
-        <img src="/img/3.jpg" class="card-img-top" alt="..." />
+        <img src="img/3.jpg" class="card-img-top" alt="..." />
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">03</h5>
           <p class="card-text text-center">
@@ -98,7 +98,7 @@
 
       <!-- Tajeta  4-->
       <div class="card bg-info m-2 p-2" style="width: 18rem;">
-        <img src="/img/4.jpg" class="card-img-top" alt="..." />
+        <img src="img/4.jpg" class="card-img-top" alt="..." />
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">04</h5>
           <p class="card-text text-center">
@@ -110,7 +110,7 @@
 
       <!-- Tajeta  5-->
       <div class="card bg-info m-2 p-2" style="width: 18rem;">
-        <img src="/img/5.jpg" class="card-img-top" alt="..." />
+        <img src="img/5.jpg" class="card-img-top" alt="..." />
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">05</h5>
           <p class="card-text text-center">
@@ -122,7 +122,7 @@
 
       <!-- Tajeta  6-->
       <div class="card bg-info m-2 p-2" style="width: 18rem;">
-        <img src="/img/6.png" class="card-img-top" alt="..." />
+        <img src="img/6.png" class="card-img-top" alt="..." />
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">06</h5>
           <p class="card-text text-center">
@@ -134,7 +134,7 @@
 
       <!-- Tajeta  7-->
       <div class="card bg-info m-2 p-2" style="width: 18rem;">
-        <img src="/img/7.png" class="card-img-top" alt="..." />
+        <img src="img/7.png" class="card-img-top" alt="..." />
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">07</h5>
           <p class="card-text text-center">
