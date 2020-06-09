@@ -37,19 +37,19 @@
       <h1 class="display-4">Bienvenido al ejercicio 1</h1>
       <p class="lead">
         <?php
-$dia = date("d");
-if ($dia <= 10) {
-    echo "La pagina se encuentra disponible felicidades";
-} else {
-    echo "Lamentablemente la pagina no esta disponible";
-}
-?>
+            $dia = date("d");
+            if ($dia <= 10) {
+                echo "La pagina se encuentra disponible felicidades";
+            } else {
+                echo "Lamentablemente la pagina no esta disponible";
+            }
+        ?>
       </p>
       <hr class="my-4" />
       <p>
-<?php
-echo "Dia = ", $dia;
-?>
+      <?php
+          echo "Dia = ", $dia;
+      ?>
       </p>
       <a class="btn btn-primary btn-lg" href="./index.php" role="button"
         >Volver</a

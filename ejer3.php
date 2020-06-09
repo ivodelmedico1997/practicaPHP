@@ -37,16 +37,16 @@
       <h1 class="display-4">Bienvenido al ejercicio 3</h1>
       <p class="lead">
       <?php
-$num = rand(1, 999);
-if ($num <= 9) {;
-    echo "El numero es de un digito y salio: ", $num;
-} elseif ($num <= 99) {
-    echo "El numero es de dos digitos y salio: ", $num;
-} else {
-    echo "El numero es de tres digitos y salio: ", $num;
+        $num = rand(1, 999);
+        if ($num <= 9) {;
+          echo "El numero es de un digito y salio: ", $num;
+        } elseif ($num <= 99) {
+          echo "El numero es de dos digitos y salio: ", $num;
+        } else {
+          echo "El numero es de tres digitos y salio: ", $num;
 
-}
-?>
+        }
+      ?>
       </p>
 
       <a class="btn btn-primary btn-lg" href="./index.php" role="button"

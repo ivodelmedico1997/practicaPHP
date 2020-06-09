@@ -37,13 +37,15 @@
       <h1 class="display-4">Bienvenido al ejercicio 2</h1>
       <p class="lead">
       <?php
-$num = rand(1, 100);
-if ($num <= 50) {;
-    echo "El numero es menor o igual a 50 y salio: ", $num;
-} else {
-    echo "El numero es mayor a 50 y salio: ", $num;
-}
-?>
+          $num = rand(1, 100);
+          if ($num < 50) {;
+              echo "El numero es menor a 50 y salio: ", $num;
+          } elseif ($num==50) {
+            echo "El numero es igual a 50 y salio: ", $num;
+          } else {
+              echo "El numero es mayor a 50 y salio: ", $num;
+          }         
+      ?>
       </p>
 
       <a class="btn btn-primary btn-lg" href="./index.php" role="button"

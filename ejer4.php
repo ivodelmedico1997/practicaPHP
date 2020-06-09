@@ -37,24 +37,24 @@
       <h1 class="display-4">Bienvenido al ejercicio 4</h1>
       <p class="lead">
       <?php
-$num = rand(1, 7);
-if ($num == 1) {;
-    echo "El numero es ", $num, " y su dia de semana es Lunes";
-} elseif ($num == 2) {
-    echo "El numero es ", $num, " y su dia de semana es Martes";
-} elseif ($num == 3) {
-    echo "El numero es ", $num, " y su dia de semana es Miercoles";
-} elseif ($num == 4) {
-    echo "El numero es ", $num, " y su dia de semana es Jueves";
-} elseif ($num == 5) {
-    echo "El numero es ", $num, " y su dia de semana es Viernes";
-} elseif ($num == 6) {
-    echo "El numero es ", $num, " y su dia de semana es Sabado";
-} else {
-    echo "El numero es ", $num, " y su dia de semana es Domingo";
-}
+        $num = rand(1, 7);
+        if ($num == 1) {;
+            echo "El numero es ", $num, " y su dia de semana es Lunes";
+        } elseif ($num == 2) {
+            echo "El numero es ", $num, " y su dia de semana es Martes";
+        } elseif ($num == 3) {
+            echo "El numero es ", $num, " y su dia de semana es Miercoles";
+        } elseif ($num == 4) {
+            echo "El numero es ", $num, " y su dia de semana es Jueves";
+        } elseif ($num == 5) {
+            echo "El numero es ", $num, " y su dia de semana es Viernes";
+        } elseif ($num == 6) {
+            echo "El numero es ", $num, " y su dia de semana es Sabado";
+        } else {
+            echo "El numero es ", $num, " y su dia de semana es Domingo";
+        }
 
-?>
+      ?>
       </p>
 
       <a class="btn btn-primary btn-lg" href="./index.php" role="button"

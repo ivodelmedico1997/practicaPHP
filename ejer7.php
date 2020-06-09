@@ -34,16 +34,42 @@
       </div>
     </nav>
     <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
+      <h1 class="display-4">Bienvenido al Ejercicio 7</h1>
+      <div class="row">
+      <p class="lead m-2">
+      <?php 
+          echo "Tabla del 5 con el ciclo for", "<br>";
+        for ($i=0; $i <= 10; $i++) { 
+          $resultado=$i*5;
+          echo "5 * ", $i," = ", $resultado, "<br>";
+        }
+      ?>  
       </p>
-      <hr class="my-4" />
-      <p>
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
+      <p class="lead m-2">
+      <?php 
+          echo "Tabla del 5 con el ciclo while", "<br>";
+        $i= 0;
+          while ($i <= 10) {
+          $resultado=$i*5;
+          echo "5 * ", $i," = ", $resultado, "<br>";
+          $i++;
+        }
+      ?>  
       </p>
+      <p class="lead m-2">
+      <?php 
+          echo "Tabla del 5 con el ciclo do-while", "<br>";
+          $i= 0;
+        do {
+          $resultado=$i*5;
+          echo "5 * ", $i," = ", $resultado, "<br>";
+          $i++;
+        } while ($i <= 10);
+      ?>  
+      </p>
+      </div>
+     
+      
       <a class="btn btn-primary btn-lg" href="./index.php" role="button"
         >Volver</a
       >

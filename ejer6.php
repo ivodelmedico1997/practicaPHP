@@ -37,13 +37,14 @@
       <h1 class="display-4">Bienbenido al ejercicio 6</h1>
       <p class="lead">
         <?php
-$num = rand(1, 100);
-echo "Su numero aleatorio es: ", $num, "<br>";
-$a = 1;
-while ($a <= $num) {
-    echo $a, " ";
-    $a = $a + 1;
-}?>
+          $num = rand(1, 100);
+          echo "Su numero aleatorio es: ", $num, "<br>";
+          $a = 1;
+          while ($a <= $num) {
+              echo $a, " ";
+              $a = $a + 1;
+          }
+        ?>
         </p>
 
       <a class="btn btn-primary btn-lg" href="./index.php" role="button"

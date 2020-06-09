@@ -37,9 +37,10 @@
       <h1 class="display-4">Bienvenido al ejercicio 5</h1>
       <p class="lead">
         <?php
-for ($i = 0; $i <= 100; $i++) {
-    echo $i, " ";
-}?>
+          for ($i = 0; $i <= 100; $i++) {
+              echo $i, " ";
+          }
+        ?>
       </p>
 
       <a class="btn btn-primary btn-lg" href="./index.php" role="button"
